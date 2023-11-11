@@ -3,7 +3,7 @@ function App() {
   return (
     <>
       <main className="container cat-container">
-        <CatContainer name="Mr Bigodes" breed="Siames" img="/2.png" />
+        <CatContainer id={1} name="Mr Bigodes" breed="Siames" img="/2.png" />
         <CatContainer name="Mr Bigodes" breed="Siames" img="/2.png" />
         <CatContainer name="Mr Bigodes" breed="Siames" img="/2.png" />
         <CatContainer name="Mr Bigodes" breed="Siames" img="/2.png" />
