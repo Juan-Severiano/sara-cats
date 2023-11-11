@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@500;700&display=swap');
+
+header {
+    img {
+        max-width: 150px;
+    }
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+main.cat-container {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .cat-card {
+        max-width: 250px;
+        background: none;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+        h2 { font-family: 'Poppins'; font-weight: bold; }
+        img {
+            border-radius: 50%;
+            max-width: 200px;
+        }
+        p { text-align: center; font-family: 'Architects Daughter'; font-size: 24px; }
+    }
+}
+
+body { background-color: #f0f0f0; }
